@@ -12,7 +12,7 @@ public class Main {
       int c=30;
       int result1=a/b;
       int result2=a/c;
-      System.out.println(result1); //33333333
+      System.out.println(result1); //33
       System.out.println(result2); //7
   }
 }
