@@ -1,0 +1,18 @@
+/*
+С некоторого момента прошло 234 дня.
+Сколько полных недель прошло за этот период?
+Сколько месяцев?
+*/
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int a=234;
+      int b=7;
+      int c=30;
+      int result1=a/b;
+      int result2=a/c;
+      System.out.println(result1); //33
+      System.out.println(result2); //7
+  }
+}
