@@ -1,0 +1,34 @@
+/* Программа вывода любого числа любое заданное количество раз
+*/
+
+// Вариант 1 - с использованием консоли сканера 
+
+import java.util.*;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      
+      Scanner sc=new Scanner(System.in);
+      
+      int a=sc.nextInt();
+      
+      for (int i=1;i<=a;i++){
+      System.out.println(5);
+      }
+  }  
+}
+
+
+// Вариант 2 - без использования консоли 
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      
+      for (int i=1;i<=12;i++){
+      System.out.println(5);
+      }
+  }  
+}
