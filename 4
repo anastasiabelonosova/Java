@@ -1,0 +1,19 @@
+/* Даны радиус круга и сторона квадрата.
+У какой фигуры площадь больше?
+*/
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      
+      double SCircle=Math.PI*Math.pow(2,2);
+      System.out.println("Площадь круга\t"+SCircle);
+      
+      double SSquare=Math.pow(4,2);
+      System.out.println("Площадь квадрата\t"+SSquare);
+      
+      System.out.println(SCircle==SSquare);
+      System.out.println(SCircle>SSquare);
+      System.out.println(SCircle<SSquare);
+  }
+}
